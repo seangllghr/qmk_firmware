@@ -90,8 +90,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, // Big red thumb buttons
         KC_BSPACE, _______, _______, _______, _______,
     // Piano keys
-    MT(MOD_LSFT, KC_ENTER), LT(2, KC_TAB), OSL(3),
-        OSL(3), LT(2, KC_ESCAPE), MT(MOD_RSFT, KC_SPACE)
+    MT(MOD_LSFT, KC_SPACE), LT(2, KC_TAB), OSL(3),
+        OSL(3), LT(2, KC_ESCAPE), MT(MOD_RSFT, KC_ENTER)
   ),
   [1] = LAYOUT_moonlander(
     // Row 1
