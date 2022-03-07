@@ -78,20 +78,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_END, _______, _______, _______, _______, _______, _______,
     // Row 2
     _______, KC_W, KC_F, KC_M, KC_P, KC_V, LM(2, MOD_LALT),
-        _______, KC_SCOLON, KC_DOT, ST_MACRO_0, TD(DANCE_1), KC_QUOTE, KC_Z,
+        _______, KC_COMMA, KC_J, KC_K, TD(DANCE_1), KC_SCOLON, ST_MACRO_0,
     // Row 3
     _______, MT(MOD_LSFT, KC_R), MT(MOD_LALT, KC_S), MT(MOD_LCTL, KC_N), MT(MOD_LGUI, KC_T), KC_B, KC_RALT,
-        _______, KC_COMMA, MT(MOD_RGUI, KC_A), MT(MOD_RCTL, KC_E), MT(MOD_LALT, KC_I), MT(MOD_RSFT, KC_H), KC_J,
+        _______, KC_H, MT(MOD_RGUI, KC_A), MT(MOD_RCTL, KC_E), MT(MOD_LALT, KC_I), MT(MOD_RSFT, KC_L), KC_QUOTE,
     // Row 4
-    _______, TD(DANCE_0), KC_C, KC_L, KC_D, KC_G,
-        KC_MINUS, KC_U, KC_O, KC_Y, KC_K, _______, 
+    _______, KC_Z, TD(DANCE_0), KC_C, KC_D, KC_G,
+        KC_DOT, KC_U, KC_O, KC_Y, KC_MINUS, _______,
     // Row 5
-    _______, _______, LM(2, MOD_LGUI), _______, KC_DELETE,
+    _______, _______, LM(2, MOD_LGUI), KC_DELETE, KC_BSPACE,
         _______, _______, // Big red thumb buttons
-        KC_BSPACE, _______, _______, _______, _______, 
+        KC_BSPACE, _______, _______, _______, _______,
     // Piano keys
-    MT(MOD_LSFT, KC_SPACE), LT(2, KC_TAB), OSL(3),
-        OSL(3), LT(2, KC_ESCAPE), MT(MOD_RSFT, KC_ENTER)
+    MT(MOD_LSFT, KC_ENTER), LT(2, KC_TAB), OSL(3),
+        OSL(3), LT(2, KC_ESCAPE), MT(MOD_RSFT, KC_SPACE)
   ),
   [1] = LAYOUT_moonlander(
     // Row 1
