@@ -80,8 +80,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______, KC_W, KC_F, KC_M, KC_P, KC_V, LM(2, MOD_LALT),
         _______, KC_COMMA, KC_J, KC_K, TD(DANCE_1), KC_SCOLON, ST_MACRO_0,
     // Row 3
-    _______, MT(MOD_LSFT, KC_R), MT(MOD_LALT, KC_S), MT(MOD_LCTL, KC_N), MT(MOD_LGUI, KC_T), KC_B, KC_RALT,
-        _______, KC_H, MT(MOD_RGUI, KC_A), MT(MOD_RCTL, KC_E), MT(MOD_LALT, KC_I), MT(MOD_RSFT, KC_L), KC_QUOTE,
+    _______, LSFT_T(KC_R), LALT_T(KC_S), LCTL_T(KC_N), LGUI_T(KC_T), KC_B, KC_RALT,
+        _______, KC_H, RGUI_T(KC_A), RCTL_T(KC_E), LALT_T(KC_I), RSFT_T(KC_L), KC_QUOTE,
     // Row 4
     _______, KC_Z, TD(DANCE_0), KC_C, KC_D, KC_G,
         KC_DOT, KC_U, KC_O, KC_Y, KC_MINUS, _______,
@@ -101,8 +101,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______, KC_Q, KC_W, KC_E, KC_R, KC_T, _______,
         _______, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_BSLASH,
     // Row 3
-    _______, MT(MOD_LSFT, KC_A), MT(MOD_LALT, KC_S), MT(MOD_LCTL, KC_D), MT(MOD_LGUI, KC_F), KC_G, _______,
-        _______, KC_H, MT(MOD_RGUI, KC_J), MT(MOD_RCTL, KC_K), MT(MOD_LALT, KC_L), MT(MOD_RSFT, KC_SCOLON), KC_QUOTE,
+    _______, LSFT_T(KC_A), LALT_T(KC_S), LCTL_T(KC_D), LGUI_T(KC_F), KC_G, _______,
+        _______, KC_H, RGUI_T(KC_J), RCTL_T(KC_K), LALT_T(KC_L), RSFT_T(KC_SCOLON), KC_QUOTE,
     // Row 4
     _______, KC_Z, KC_X, KC_C, KC_V, KC_B,
         KC_N, KC_M, KC_COMMA, KC_DOT, KC_SLASH, _______,
@@ -123,7 +123,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_INSERT, KC_BSLASH, KC_7, KC_8, KC_9, KC_ASTR, KC_F12, 
     // Row 3
     _______, TD(DANCE_2), TD(DANCE_3), TD(DANCE_4), TD(DANCE_5), KC_GRAVE, ST_MACRO_1,
-        ST_MACRO_2, ST_MACRO_3, MT(MOD_RGUI, KC_4),MT(MOD_RCTL, KC_5),MT(MOD_LALT, KC_6),TD(DANCE_6), KC_MINUS, 
+        ST_MACRO_2, ST_MACRO_3, RGUI_T(KC_4),RCTL_T(KC_5),LALT_T(KC_6),TD(DANCE_6), KC_MINUS,
     // Row 4
     _______, KC_PERC, KC_CIRC, KC_LBRACKET, KC_RBRACKET, KC_TILD,
         KC_AMPR, KC_1, KC_2, KC_3, KC_SLASH, _______, 
