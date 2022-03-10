@@ -174,7 +174,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______,
         _______, _______, _______, _______, _______, 
     // Piano keys
-    _______, KC_LCTRL, KC_LALT,
+    LSFT_T(KC_SPACE), KC_LCTRL, KC_LALT,
         _______, _______, _______
   ),
   [5] = LAYOUT_moonlander(
