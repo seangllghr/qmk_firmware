@@ -74,24 +74,24 @@ enum tap_dance_codes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT_moonlander(
     // Row 1
-    _______, _______, _______, _______, _______, _______, KC_HOME,
-        KC_END, _______, _______, _______, _______, _______, _______,
+    _______, _______, _______, _______, _______, _______, _______,
+        _______, _______, _______, _______, _______, _______, _______,
     // Row 2
-    _______, KC_V, KC_G, KC_M, KC_F, KC_SCOLON, LM(2, MOD_LALT),
+    _______, KC_V, KC_G, KC_M, KC_F, KC_SCOLON, _______,
         _______, KC_QUOTE, KC_K, KC_U, KC_J, KC_Z, _______,
     // Row 3
-    ST_MACRO_0, KC_R, LALT_T(KC_S), LCTL_T(KC_T), LGUI_T(KC_H), KC_P, KC_RALT,
-        _______, KC_Y, RGUI_T(KC_I), RCTL_T(KC_E), LALT_T(KC_O), KC_A, _______,
+    ST_MACRO_0, KC_R, LALT_T(KC_S), LCTL_T(KC_T), LGUI_T(KC_H), KC_P, KC_HOME,
+        KC_END, KC_Y, RGUI_T(KC_I), RCTL_T(KC_E), LALT_T(KC_O), KC_A, _______,
     // Row 4
     _______, TD(DANCE_0), KC_C, KC_L, KC_D, KC_B,
         KC_MINUS, KC_W, KC_COMMA, KC_DOT, TD(DANCE_1), _______,
     // Row 5
-    _______, _______, LM(2, MOD_LGUI), _______, KC_TAB,
+    _______, _______, _______, _______, KC_TAB,
         OSL(3), OSL(3), // Big red thumb buttons
         KC_BSPACE, KC_DELETE, _______, _______, _______,
     // Piano keys
-    MT(MOD_LSFT, KC_N), LT(2, KC_ESCAPE), _______,
-        _______, LT(2, KC_ENTER), MT(MOD_RSFT, KC_SPACE)
+    MT(MOD_LSFT, KC_N), LT(2, KC_ESCAPE), KC_RALT,
+        KC_RALT, LT(2, KC_ENTER), MT(MOD_RSFT, KC_SPACE)
   ),
   [1] = LAYOUT_moonlander(
     // Row 1
